@@ -1,5 +1,5 @@
-body {
-  background-image: url(imges/banner-bg.jpg);
+.header {
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -35,3 +35,18 @@ body {
   color: white;
 }
 
+.blog_title {
+    text-align: center;
+    display: block;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+    .blog {
+        font-size: 40px;
+        line-height: 54.98px;
+    }
+}
